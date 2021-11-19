@@ -93,7 +93,6 @@ public class keyword : MonoBehaviour
             if (Input.GetKeyDown("f")) {
                 empezarKeyword();
                 reconociendo = true;
-                //reconocedorDictado.parar();
 
                 recognizer.Start();
             } 

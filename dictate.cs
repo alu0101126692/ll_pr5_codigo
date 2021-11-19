@@ -45,7 +45,6 @@ public class dictate : MonoBehaviour
 
         };
 
-
     }
     private void administarDictado() {
         if (reconocedorKeyword.encendido) { // Solo ejecutar esto si esta encedido
@@ -58,7 +57,6 @@ public class dictate : MonoBehaviour
                         PhraseRecognitionSystem.Shutdown(); // Tiene que apagarse esto antes de cada ejecucion ya que no puede ejecutarse a la vez que el dictado
                     
                     
-                    //reconocedorKeyword.parar();
                     dictado.Start();
                 } 
 
